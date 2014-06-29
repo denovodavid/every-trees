@@ -1,0 +1,27 @@
+tile.blockEveryLog.diamond.name=Diamond Wood
+tile.blockEveryLog.gold.name=Gold Wood
+tile.blockEveryLog.iron.name=Iron Wood
+tile.blockEveryLog.emerald.name=Emerald Wood
+tile.blockEveryLog.lapis.name=Lapis Wood
+tile.blockEveryLog.glowstone.name=Glowstone Wood
+tile.blockEveryLog.redstone.name=Redstone Wood
+
+tile.blockEveryLeaves.diamond.name=Diamond Leaves
+tile.blockEveryLeaves.gold.name=Gold Leaves
+tile.blockEveryLeaves.iron.name=Iron Leaves
+tile.blockEveryLeaves.emerald.name=Emerald Leaves
+tile.blockEveryLeaves.lapis.name=Lapis Leaves
+tile.blockEveryLeaves.glowstone.name=Glowstone Leaves
+tile.blockEveryLeaves.redstone.name=Redstone Leaves
+
+tile.blockEverySapling.diamond.name=Diamond Sapling
+tile.blockEverySapling.gold.name=Gold Sapling
+tile.blockEverySapling.iron.name=Iron Sapling
+tile.blockEverySapling.emerald.name=Emerald Sapling
+tile.blockEverySapling.lapis.name=Lapis Sapling
+tile.blockEverySapling.glowstone.name=Glowstone Sapling
+tile.blockEverySapling.redstone.name=Redstone Sapling
+
+item.itemDiamondShards.name=Diamond Shards
+
+itemGroup.tabEveryTrees=Every Trees
