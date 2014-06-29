@@ -10,6 +10,7 @@ Changelog
 
 ## Planned Features
 
+- [x] Update to Minecraft 1.7.10
 - [ ] Multiple meat variant trees, with logs, leaves and saplings
  - Beef
  - Pork
