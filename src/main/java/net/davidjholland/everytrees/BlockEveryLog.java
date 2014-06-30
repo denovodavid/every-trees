@@ -1,7 +1,6 @@
 package net.davidjholland.everytrees;
 
 import java.util.List;
-import java.util.Random;
 
 import net.minecraft.block.BlockLog;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -71,41 +70,56 @@ public class BlockEveryLog extends BlockLog
     	}
     }
     
-    public void onBlockClicked(World world, int x, int y, int z, EntityPlayer player){
-    	
-    	double X = x + 0.5;
-    	double Y = y + 0.5;
-    	double Z = z + 0.5;
-    	
-    	double d0 = player.posX - X;
-        double d1 = player.boundingBox.minY + (double)(player.height / 2.0F) - (Y);
-        double d2 = player.posZ - Z;
-        
-        if(d0 > 0){
-        	X = X + 0.51;
-        }else if(d0 < 0){
-        	X = X - 0.51;
-        }
-        
-        if(d1 > 0){
-        	Y = Y + 0.51;
-        }else if(d1 < 0){
-        	Y = Y - 0.51;
-        }
-        
-        if(d2 > 0){
-        	Z = Z + 0.51;
-        }else if(d2 < 0){
-        	Z = Z - 0.51;
-        }
-        
-    	d0 = player.posX - X;
-        d1 = player.boundingBox.minY + (double)(player.height / 2.0F) - (Y);
-        d2 = player.posZ - Z;
-    	
-    	EntitySmallFireball entitysmallfireball = new EntitySmallFireball(world, X, Y, Z, d0, d1, d2);
-    	world.spawnEntityInWorld(entitysmallfireball);
-    	
-    }
+
+    /**
+     * On hold until lava trees.
+     */
+//    public void onBlockClicked(World world, int x, int y, int z, EntityPlayer player){
+//    	
+//    	if(!world.isRemote){
+//    		
+//    		double X = x + 0.5;
+//    		double Y = y + 0.5;
+//    		double Z = z + 0.5;
+//    		
+//    		System.out.println("X: " + X);
+//    		System.out.println("Y: " + Y);
+//    		System.out.println("Z: " + Z);
+//    	
+//    		double pX = player.posX - X;
+//    		double pY = player.posY - Y + 0.5;
+//    		double pZ = player.posZ - Z;
+//    		
+//    		System.out.println("pX: " + pX);
+//    		System.out.println("pY: " + pY);
+//    		System.out.println("pZ: " + pZ);
+//    		
+//    		if(pX > 0.5){
+//    			X = X + 0.6;
+//    		}else if(pX < - 0.5){
+//    			X = X - 0.6;
+//    		}
+//    		
+//    		if(pY > 0){
+//    			Y = Y + 0.6;
+//    		}else if(pY < 0){
+//    			Y = Y - 0.6;
+//    		}
+//    		
+//    		if(pZ > 0.5){
+//    			Z = Z + 0.6;
+//    		}else if(pZ < - 0.5){
+//    			Z = Z - 0.6;
+//    		}
+//    		
+//    		System.out.println("X: " + X);
+//    		System.out.println("Y: " + Y);
+//    		System.out.println("Z: " + Z);
+//        
+//    		EntitySmallFireball entitysmallfireball = new EntitySmallFireball(world, X, Y, Z, pX, pY, pZ);
+//    		world.playAuxSFX(1009, (int)x, (int)y, (int)z, 0);
+//    		world.spawnEntityInWorld(entitysmallfireball);
+//    	}
+//    }
     
 }

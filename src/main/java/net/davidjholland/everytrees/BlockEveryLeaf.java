@@ -25,7 +25,7 @@ public class BlockEveryLeaf extends BlockLeaves
     private int color_gold = 16297771;
     private int color_iron = 11505271;
     private int color_emerald = 31512;
-    private int color_lapis = 0;
+    private int color_lapis = 1857478;
     private int color_glowstone = 0;
     private int color_redstone = 0;	
     
@@ -60,16 +60,13 @@ public class BlockEveryLeaf extends BlockLeaves
 
     protected void func_150124_c(World p_150124_1_, int p_150124_2_, int p_150124_3_, int p_150124_4_, int p_150124_5_, int p_150124_6_)
     {
-        if ((p_150124_5_ & 3) == 0 && p_150124_1_.rand.nextInt(200) == 0)
-        {
+        if ((p_150124_5_ & 3) == 0 && p_150124_1_.rand.nextInt(200) == 0){
             if(p_150124_1_.rand.nextInt(2) == 0){
             	this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(Items.diamond));
             }else{
             	this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(EveryTrees.itemDiamondShards, 1, 0));
             }
-        }
-        if ((p_150124_5_ & 3) == 1 && p_150124_1_.rand.nextInt(150) == 0)
-        {
+        }else if ((p_150124_5_ & 3) == 1 && p_150124_1_.rand.nextInt(150) == 0){
         	if(p_150124_1_.rand.nextInt(3) == 0){
             	this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(Items.golden_apple, 1, 1));
             }else if((p_150124_1_.rand.nextInt(2) == 0)){
@@ -77,14 +74,12 @@ public class BlockEveryLeaf extends BlockLeaves
             }else{
             	this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(Items.gold_nugget, 2, 0));
             }
-        }
-        if ((p_150124_5_ & 3) == 2 && p_150124_1_.rand.nextInt(150) == 0)
-        {
+        }else if ((p_150124_5_ & 3) == 2 && p_150124_1_.rand.nextInt(150) == 0){
             this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(Items.iron_ingot, 1, 0));
-        }
-        if ((p_150124_5_ & 3) == 3 && p_150124_1_.rand.nextInt(200) == 0)
-        {
+        }else if ((p_150124_5_ & 3) == 3 && p_150124_1_.rand.nextInt(200) == 0){
             this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(Items.emerald, 1, 0));
+        }else if ((p_150124_5_ & 3) == 4 && p_150124_1_.rand.nextInt(1) == 0){
+        	this.dropBlockAsItem(p_150124_1_, p_150124_2_, p_150124_3_, p_150124_4_, new ItemStack(Items.dye, 1, 4));
         }
     }
 
@@ -111,7 +106,14 @@ public class BlockEveryLeaf extends BlockLeaves
     public IIcon getIcon(int p_149691_1_, int p_149691_2_)
     {
     	this.setGraphicsLevel(Minecraft.getMinecraft().gameSettings.fancyGraphics);
-    	return (p_149691_2_ & 3) == 1 ? this.field_150129_M[this.field_150127_b][1] : ((p_149691_2_ & 3) == 2 ? this.field_150129_M[this.field_150127_b][2] : this.field_150129_M[this.field_150127_b][0]);
+    	return 
+    		(p_149691_2_ & 3) == 1 ? this.field_150129_M[this.field_150127_b][1] : 
+    		((p_149691_2_ & 3) == 2 ? this.field_150129_M[this.field_150127_b][2] : 
+    		((p_149691_2_ & 3) == 3 ? this.field_150129_M[this.field_150127_b][3] : 
+    		((p_149691_2_ & 3) == 4 ? this.field_150129_M[this.field_150127_b][4] : 
+    		((p_149691_2_ & 3) == 5 ? this.field_150129_M[this.field_150127_b][5] : 
+    		((p_149691_2_ & 3) == 6 ? this.field_150129_M[this.field_150127_b][6] : 
+    		this.field_150129_M[this.field_150127_b][0])))));
     }
 
     /**
