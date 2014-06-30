@@ -10,15 +10,27 @@ Changelog
 
 ## Planned Features
 
-- [x] Update to Minecraft 1.7.10
-- [ ] Multiple meat variant trees, with logs, leaves and saplings
- - Beef
- - Pork
- - Fish
-- [ ] Lapis trees, Emerald trees, Redstone trees, Glowstone trees
-- [ ] Lava trees, Water trees, ...Milk trees? :P
-- [ ] Enchanted trees and enchanted paper, to craft enchanted books
-- [ ] Leather trees, Slime trees, Ender trees, Bone trees
+#### Trees
+
+- [x] Emerald
+- [x] Diamond
+- [x] Gold
+- [x] Iron
+- [ ] Glowstone
+- [ ] Lapis
+- [ ] Redstone
+- [ ] Coal
+- [ ] Enchanted
+- [ ] Ender
+- [ ] Lava
+- [ ] Ice
+- [ ] Slime
+- [ ] Bone
+- [ ] Meat
+- [ ] Leather
+
+#### Other Features
+
 - [ ] Tree Golem
 - [ ] Different tree generation for each variant
 
