@@ -1,27 +1,65 @@
-tile.blockEveryLog.diamond.name=Diamond Wood
-tile.blockEveryLog.gold.name=Gold Wood
-tile.blockEveryLog.iron.name=Iron Wood
-tile.blockEveryLog.emerald.name=Emerald Wood
-tile.blockEveryLog.lapis.name=Lapis Wood
-tile.blockEveryLog.glowstone.name=Glowstone Wood
-tile.blockEveryLog.redstone.name=Redstone Wood
+tile.logs1.emerald.name=Emerald Wood
+tile.logs1.diamond.name=Diamond Wood
+tile.logs1.gold.name=Gold Wood
+tile.logs1.iron.name=Iron Wood
 
-tile.blockEveryLeaves.diamond.name=Diamond Leaves
-tile.blockEveryLeaves.gold.name=Gold Leaves
-tile.blockEveryLeaves.iron.name=Iron Leaves
-tile.blockEveryLeaves.emerald.name=Emerald Leaves
-tile.blockEveryLeaves.lapis.name=Lapis Leaves
-tile.blockEveryLeaves.glowstone.name=Glowstone Leaves
-tile.blockEveryLeaves.redstone.name=Redstone Leaves
+tile.logs2.glowstone.name=Glowstone Wood
+tile.logs2.lapis.name=Lapis Wood
+tile.logs2.redstone.name=Redstone Wood
+tile.logs2.obsidian.name=Obsidian Wood
 
-tile.blockEverySapling.diamond.name=Diamond Sapling
-tile.blockEverySapling.gold.name=Gold Sapling
-tile.blockEverySapling.iron.name=Iron Sapling
-tile.blockEverySapling.emerald.name=Emerald Sapling
-tile.blockEverySapling.lapis.name=Lapis Sapling
-tile.blockEverySapling.glowstone.name=Glowstone Sapling
-tile.blockEverySapling.redstone.name=Redstone Sapling
+tile.logs3.enchanted.name=Enchanted Wood
+tile.logs3.ender.name=Ender Wood
+tile.logs3.lava.name=Lava Wood
+tile.logs3.ice.name=Ice Wood
 
-item.itemDiamondShards.name=Diamond Shards
+tile.logs4.slime.name=Slime Wood
+tile.logs4.bone.name=Bone Wood
+tile.logs4.meat.name=Meat Wood
+tile.logs4.leather.name=Leather Wood
+
+tile.leaves1.emerald.name=Emerald Leaves
+tile.leaves1.diamond.name=Diamond Leaves
+tile.leaves1.gold.name=Gold Leaves
+tile.leaves1.iron.name=Iron Leaves
+
+tile.leaves2.glowstone.name=Glowstone Leaves
+tile.leaves2.lapis.name=Lapis Leaves
+tile.leaves2.redstone.name=Redstone Leaves
+tile.leaves2.obsidian.name=Obsidian Leaves
+
+tile.leaves3.enchanted.name=Enchanted Leaves
+tile.leaves3.ender.name=Ender Leaves
+tile.leaves3.lava.name=Lava Leaves
+tile.leaves3.ice.name=Ice Leaves
+
+tile.leaves4.slime.name=Slime Leaves
+tile.leaves4.bone.name=Bone Leaves
+tile.leaves4.meat.name=Meat Leaves
+tile.leaves4.leather.name=Leather Leaves
+
+tile.saplings.emerald.name=Emerald Sapling
+tile.saplings.diamond.name=Diamond Sapling
+tile.saplings.gold.name=Gold Sapling
+tile.saplings.iron.name=Iron Sapling
+
+tile.saplings.glowstone.name=Glowstone Sapling
+tile.saplings.lapis.name=Lapis Sapling
+tile.saplings.redstone.name=Redstone Sapling
+tile.saplings.obsidian.name=Obsidian Sapling
+
+tile.saplings.enchanted.name=Enchanted Sapling
+tile.saplings.ender.name=Ender Sapling
+tile.saplings.lava.name=Lava Sapling
+tile.saplings.ice.name=Ice Sapling
+
+tile.saplings.slime.name=Slime Sapling
+tile.saplings.bone.name=Bone Sapling
+tile.saplings.meat.name=Meat Sapling
+tile.saplings.leather.name=Leather Sapling
+
+item.shards.emerald.name=Emerald Shards
+item.shards.diamond.name=Diamond Shards
+item.shards.obsidian.name=Obsidian Shards
 
 itemGroup.tabEveryTrees=Every Trees

@@ -22,7 +22,7 @@ group= "net.davidjholland.everytrees" // http://maven.apache.org/guides/mini/gui
 archivesBaseName = "everytrees"
 
 minecraft {
-    version = "1.7.10-10.13.0.1152"
+    version = "1.7.10-10.13.0.1160"
     assetDir = "eclipse/assets"
 }
 
