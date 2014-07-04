@@ -41,10 +41,10 @@ public class BlockETLog extends Block {
 	//logs4
 	//Slime				(0)
 	//Bone				(1)
-	//Meat				(2)
+	//Bacon				(2)
 	//Leather			(3)
 	
-	private static final String[] types = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "meat", "leather"};
+	private static final String[] types = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "bacon", "leather"};
 	private IIcon[] textures;
 	private IIcon[] top;
 	private final LogCategory category;
@@ -67,6 +67,16 @@ public class BlockETLog extends Block {
             textures[i] = iconRegister.registerIcon(EveryTrees.MODID + ":log_" + types[i]);
             top[i] = iconRegister.registerIcon(EveryTrees.MODID + ":log_" + types[i] + "_top");
         }
+    }
+	
+	@Override
+	public int getLightValue(IBlockAccess world, int x, int y, int z) {
+        int meta = world.getBlockMetadata(x, y, z);
+        String wood = getWoodType(meta);
+        if (wood == "glowstone") {
+            return 10;
+        }
+        return getLightValue();
     }
 	
 	@Override

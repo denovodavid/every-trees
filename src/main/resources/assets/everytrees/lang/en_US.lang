@@ -15,7 +15,7 @@ tile.logs3.ice.name=Ice Wood
 
 tile.logs4.slime.name=Slime Wood
 tile.logs4.bone.name=Bone Wood
-tile.logs4.meat.name=Meat Wood
+tile.logs4.bacon.name=Bacon Wood
 tile.logs4.leather.name=Leather Wood
 
 tile.leaves1.emerald.name=Emerald Leaves
@@ -35,7 +35,7 @@ tile.leaves3.ice.name=Ice Leaves
 
 tile.leaves4.slime.name=Slime Leaves
 tile.leaves4.bone.name=Bone Leaves
-tile.leaves4.meat.name=Meat Leaves
+tile.leaves4.bacon.name=Bacon Leaves
 tile.leaves4.leather.name=Leather Leaves
 
 tile.saplings.emerald.name=Emerald Sapling
@@ -55,7 +55,7 @@ tile.saplings.ice.name=Ice Sapling
 
 tile.saplings.slime.name=Slime Sapling
 tile.saplings.bone.name=Bone Sapling
-tile.saplings.meat.name=Meat Sapling
+tile.saplings.bacon.name=Bacon Sapling
 tile.saplings.leather.name=Leather Sapling
 
 item.shards.emerald.name=Emerald Shards

@@ -17,7 +17,7 @@ import net.minecraftforge.common.util.ForgeDirection;
 
 public class BlockETSapling extends BlockSapling {
 	
-	private static final String[] saplings = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "meat", "leather"};
+	static final String[] saplings = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "bacon", "leather"};
 	private IIcon[] textures;
 	private static final int TYPES = 15;
 

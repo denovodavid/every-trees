@@ -7,7 +7,6 @@ import net.minecraft.util.IIcon;
 
 public class ItemBlockSapling extends ItemBlock {
 	
-	private static final String[] saplings = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "meat", "leather"};
 	private static final int MAX = 15;
 
 	public ItemBlockSapling(Block block) {
@@ -24,7 +23,7 @@ public class ItemBlockSapling extends ItemBlock {
 	@Override
 	public String getUnlocalizedName(ItemStack itemStack) {
 		int meta = itemStack.getItemDamageForDisplay() > MAX ? 0 : itemStack.getItemDamageForDisplay();
-		return super.getUnlocalizedName() + "." + (new StringBuilder()).append(saplings[meta]).toString();
+		return super.getUnlocalizedName() + "." + (new StringBuilder()).append(BlockETSapling.saplings[meta]).toString();
 	}
 
 	@Override

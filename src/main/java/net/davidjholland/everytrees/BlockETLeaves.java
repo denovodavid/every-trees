@@ -31,25 +31,25 @@ public class BlockETLeaves extends BlockLeavesBase implements IShearable {
 	//Iron				(3) 11505271
 
 	//leaves2
-	//Glowstone			(0) 0
+	//Glowstone			(0) 8355711
 	//Lapis				(1) 1857478
-	//Redstone			(2) 0
-	//Obsidian			(3) 0
+	//Redstone			(2) 8355711
+	//Obsidian			(3) 8355711
 	
 	//leaves3
-	//Enchanted			(0) 0
-	//Ender				(1) 0
-	//Lava				(2) 0
-	//Ice				(3) 0
+	//Enchanted			(0) 8355711
+	//Ender				(1) 8355711
+	//Lava				(2) 8355711
+	//Ice				(3) 8355711
 	
 	//leaves4
-	//Slime				(0) 0
-	//Bone				(1) 0
-	//Meat				(2) 0
-	//Leather			(3) 0
+	//Slime				(0) 8355711
+	//Bone				(1) 8355711
+	//Bacon				(2) 8355711
+	//Leather			(3) 8355711
 
-	private static final String[] leaves = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "meat", "leather"};
-	private static final int[] color = new int[] {31512, 6155509, 16297771, 11505271, 0, 1857478, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+	private static final String[] leaves = new String[] {"emerald", "diamond", "gold", "iron", "glowstone", "lapis", "redstone", "obsidian", "enchanted", "ender", "lava", "ice", "slime", "bone", "bacon", "leather"};
+	private static final int[] color = new int[] {31512, 6155509, 16297771, 11505271, 8355711, 1857478, 8355711, 8355711, 8355711, 8355711, 8355711, 8355711, 8355711, 8355711, 8355711, 8355711};
 	private IIcon[][] textures;
 	private final LeafCategory category;
 	int[] adjacentTreeBlocks;
@@ -298,7 +298,7 @@ public class BlockETLeaves extends BlockLeavesBase implements IShearable {
 		if (world.isRemote)
 			return;
 
-		if (world.rand.nextInt(20) == 0) {
+		if (world.rand.nextInt(50) == 0) {
 			Item item = this.getItemDropped(metadata, world.rand, fortune);
 			this.dropBlockAsItem(world, x, y, z, new ItemStack(item, 1, this.damageDropped(metadata)));
 		}
