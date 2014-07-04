@@ -19,7 +19,7 @@ Changelog
 - [ ] Glowstone
 - [ ] Lapis
 - [ ] Redstone
-- [ ] Coal
+- [ ] Obsidian
 - [ ] Enchanted (Special)
 - [ ] Ender (Special)
 - [ ] Lava (Special)
