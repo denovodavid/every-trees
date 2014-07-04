@@ -20,10 +20,10 @@ Changelog
 - [ ] Lapis
 - [ ] Redstone
 - [ ] Coal
-- [ ] Enchanted
-- [ ] Ender
-- [ ] Lava
-- [ ] Ice
+- [ ] Enchanted (Special)
+- [ ] Ender (Special)
+- [ ] Lava (Special)
+- [ ] Ice (Special)
 - [ ] Slime
 - [ ] Bone
 - [ ] Meat
@@ -33,6 +33,11 @@ Changelog
 
 - [ ] Tree Golem
 - [ ] Different tree generation for each variant
+- [ ] Special Saplings such as Enchanted/Lava/Ice require placement near or on Bookcases/Lava/Ice to mature
+- [ ] Special Items to be crafted from from Special Trees (eg. Ender/Lava/Ice swords, axes, bows)
+- [ ] Special Trees to fight back when being destroyed
+- [ ] Makes leaves useful somehow
+- [ ] Add more shards
 
 ---
 ### Information
@@ -46,12 +51,12 @@ Crafting Recipe for Diamond, Gold, and Iron Saplings
 | | | |
 | --- | --- | --- |
 | X | X | X |
-| X | Y | X |
+| X | O | X |
 | X | X | X |
 
 X = Diamonds, Gold Ingots, or Iron Ingots for for their respective Saplings
 
-Y = Any standard Minecraft Sapling
+O = Any standard Minecraft Sapling
 
 Crafting recipe for Diamonds
 
