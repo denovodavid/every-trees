@@ -17,7 +17,7 @@ Changelog
 - [x] Gold
 - [x] Iron
 - [ ] Glowstone
-- [ ] Lapis
+- [x] Lapis
 - [ ] Redstone
 - [ ] Obsidian
 - [ ] Enchanted (Special)
@@ -37,8 +37,8 @@ Changelog
 - [ ] Special Saplings such as Enchanted/Lava/Ice require placement near or on Bookcases/Lava/Ice to mature
 - [ ] Special Items to be crafted from from Special Trees (eg. Ender/Lava/Ice swords, axes, bows)
 - [ ] Special Trees to fight back when being destroyed
-- [ ] Makes leaves useful somehow
-- [ ] Add more shards
+- [x] Makes leaves useful somehow
+- [x] Add more shards
 
 ---
 ### Information
