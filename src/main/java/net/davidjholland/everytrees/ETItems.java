@@ -13,6 +13,7 @@ public class ETItems {
 
 	private static void registerItems() {
 		shards = registerItem(new ItemShards().setUnlocalizedName("shards"));
+		food = registerItem(new ItemETFood(0).setUnlocalizedName("food"));
 	}
 
 	public static Item registerItem(Item item) {

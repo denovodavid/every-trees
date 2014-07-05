@@ -74,6 +74,15 @@ public class BlockETLeaves extends BlockLeavesBase implements IShearable {
 			textures[1][i] = iconRegister.registerIcon(EveryTrees.MODID + ":leaves_" + leaves[i] + "_opaque");
 		}
 	}
+	
+	@Override
+	public int getLightValue(IBlockAccess world, int x, int y, int z) {
+        int meta = getTypeFromMeta(world.getBlockMetadata(x, y, z)) + category.ordinal() * 4;
+        if (meta == 4 || meta == 10) {
+            return 4;
+        }
+        return getLightValue();
+    }
 
     @Override
     public int getRenderColor(int meta) {
@@ -348,6 +357,22 @@ public class BlockETLeaves extends BlockLeavesBase implements IShearable {
 		// Obsidian
 		if ((metadata & 3) == 7 && (world.rand.nextInt(150) == 0)) {
 			this.dropBlockAsItem(world, x, y, z, new ItemStack(ETCItems.shards, 1, 2));
+		}else
+		// Slime
+		if ((metadata & 3) == 12 && (world.rand.nextInt(200) == 0)) {
+			this.dropBlockAsItem(world, x, y, z, new ItemStack(Items.slime_ball));
+		}else
+		// Bone
+		if ((metadata & 3) == 13 && (world.rand.nextInt(100) == 0)) {
+			this.dropBlockAsItem(world, x, y, z, new ItemStack(Items.bone));
+		}
+		// Bacon
+		if ((metadata & 3) == 14 && (world.rand.nextInt(100) == 0)) {
+			this.dropBlockAsItem(world, x, y, z, new ItemStack(ETCItems.food, 1, 0));
+		}
+		// Leather
+		if ((metadata & 3) == 15 && (world.rand.nextInt(150) == 0)) {
+			this.dropBlockAsItem(world, x, y, z, new ItemStack(Items.leather));
 		}
 	}
 

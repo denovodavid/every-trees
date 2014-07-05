@@ -71,9 +71,8 @@ public class BlockETLog extends Block {
 	
 	@Override
 	public int getLightValue(IBlockAccess world, int x, int y, int z) {
-        int meta = world.getBlockMetadata(x, y, z);
-        String wood = getWoodType(meta);
-        if (wood == "glowstone") {
+        int meta = getTypeFromMeta(world.getBlockMetadata(x, y, z)) + category.ordinal() * 4;
+        if (meta == 4 || meta == 10) {
             return 10;
         }
         return getLightValue();

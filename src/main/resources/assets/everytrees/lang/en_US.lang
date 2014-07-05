@@ -62,4 +62,7 @@ item.shards.emerald.name=Emerald Shards
 item.shards.diamond.name=Diamond Shards
 item.shards.obsidian.name=Obsidian Shards
 
+item.food.bacon_raw.name=Raw Bacon
+item.food.bacon_cooked.name=Cooked Bacon
+
 itemGroup.tabEveryTrees=Every Trees

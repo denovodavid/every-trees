@@ -31,6 +31,7 @@ Changelog
 
 #### Other Features
 
+- [ ] Custom crafting table for creating saplings
 - [ ] Tree Golem
 - [ ] Different tree generation for each variant
 - [ ] Special Saplings such as Enchanted/Lava/Ice require placement near or on Bookcases/Lava/Ice to mature
